@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SSTI:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SSTI</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SSTI-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SSTI:war exploded" />
+    </root>
+  </artifact>
+</component>
